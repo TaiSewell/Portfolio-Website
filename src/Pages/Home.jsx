@@ -6,6 +6,7 @@
    when imported into App.jsx
  ***********************************************/
 import { useState, useEffect, useRef } from "react";
+import profilePic from '../assets/profile.jpg';
 
 function Home() {
     const containerRef = useRef(null);
@@ -76,8 +77,8 @@ function Home() {
             {/* Image Section */}
             <div>
                 <img
-                src="/src/assets/PersonalPhoto.jpg"
-                alt="Tai Sewell"
+                src={profilePic}
+                alt="Profile"
                 className="w-65 h-65 object-cover rounded-full shadow-lg mx-auto"
                 />
             </div>
