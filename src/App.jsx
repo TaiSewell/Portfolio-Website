@@ -1,11 +1,24 @@
+/************************************************
+ * Developer: Tai Sewell
+ * File: App.jsx
+ * Description: This file holds the funtion App()
+ ***********************************************/
+
+import Home from "./Pages/Home"
+
+/*************************************************** 
+ * Function: App()
+ * Description: This functions is used as the render
+   point for the site.
+ * Return: returns the different Pages/Components
+***************************************************/
 
 function App() {
 
   return (
     <>
-    <div className="h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-green-400">Hi, I'm Tai Sewell</h1>
-    </div>
+    <Home/>
+
     </>
   )
 }
