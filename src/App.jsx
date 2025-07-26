@@ -3,7 +3,6 @@
  * File: App.jsx
  * Description: This file holds the funtion App()
  ***********************************************/
-
 import Home from "./Pages/Home"
 
 /*************************************************** 
@@ -12,15 +11,11 @@ import Home from "./Pages/Home"
    point for the site.
  * Return: returns the different Pages/Components
 ***************************************************/
-
 function App() {
-
   return (
     <>
     <Home/>
-
     </>
   )
 }
-
 export default App

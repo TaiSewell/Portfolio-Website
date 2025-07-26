@@ -79,7 +79,7 @@ function Home() {
                 <img
                 src={profilePic}
                 alt="Profile"
-                className="w-65 h-65 object-cover rounded-full shadow-lg mx-auto"
+                className="w-63 h-65 object-cover rounded-full shadow-lg mx-auto"
                 />
             </div>
             </div>
