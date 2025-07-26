@@ -1,0 +1,3 @@
+## Tailwindcss Issue!
+- You have to install Tailwindcss version 3
+- Tailwind V4 has an issue downloading the binary properly
