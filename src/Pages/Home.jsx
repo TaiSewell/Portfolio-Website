@@ -6,6 +6,7 @@
    when imported into App.jsx
  ***********************************************/
 import { useState, useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
 import profilePic from '../assets/profile.jpg';
 
 function Home() {
@@ -50,11 +51,14 @@ function Home() {
             <div
                 className="pointer-events-none absolute inset-0 z-0"
                 style={{
-                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.2), transparent 160px)`
+                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.1), transparent 400px)`
                 }}
         />
 
         {/* Main Content */}
+        <div className="text-center">
+            <img src="/Initials Logo.png" alt="TS Logo" className="w-20 h-20 mx-auto" />
+        </div>
         <div className="relative z-10 h-full flex items-center justify-center px-8">
             <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Intro Text Section */}
@@ -64,22 +68,22 @@ function Home() {
                 </h1>
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">
                     I'm a passionate Software Development student at Austin Community College. I enjoy creating
-                    applications of all kinds, from simple tools to full-stack applications that solve real-world problems.
-                    With a background in athletics as well, I bring adaptability, teamwork, and technical skill to every project I take on.
+                    applications of all kinds, from simple tools to full-stack applications. With a background in 
+                    athletics as well, I bring adaptability, teamwork, and technical skill to every project I take on.
                 </p>
-                <a href="/portfolio">
-                <button className="bg-green-500 hover:bg-green-600 text-black px-6 py-2 rounded-lg font-semibold transition-all">
-                    View My Work
-                </button>
-                </a>
+                <Link to="/portfolio">
+                    <button className="bg-green-500 hover:bg-green-600 text-black px-6 py-2 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg duration-300">
+                        View My Work
+                    </button>
+                </Link>
             </div>
 
             {/* Image Section */}
             <div>
                 <img
-                src={profilePic}
-                alt="Profile"
-                className="w-63 h-65 object-cover rounded-full shadow-lg mx-auto"
+                    src={profilePic}
+                    alt="Profile"
+                    className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 object-cover rounded-full border-4 border-white shadow-lg mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                 />
             </div>
             </div>

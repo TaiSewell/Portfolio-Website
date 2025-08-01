@@ -3,7 +3,9 @@
  * File: App.jsx
  * Description: This file holds the funtion App()
  ***********************************************/
-import Home from "./Pages/Home"
+import { Routes, Route } from 'react-router-dom';
+import Home from "./Pages/Home";
+import Portfolio from "./Pages/Portfolio";
 
 /*************************************************** 
  * Function: App()
@@ -13,9 +15,10 @@ import Home from "./Pages/Home"
 ***************************************************/
 function App() {
   return (
-    <>
-    <Home/>
-    </>
+   <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/portfolio" element={<Portfolio />} />
+  </Routes>
   )
 }
 export default App
