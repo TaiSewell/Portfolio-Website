@@ -64,7 +64,7 @@ function Home() {
             {/* Intro Text Section */}
             <div>
                 <h1 className="text-5xl font-bold text-green-400 mb-4">
-                    Hi, my name is Tai Sewell
+                    Hello, my name is Tai Sewell
                 </h1>
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">
                     I'm a passionate Software Development student at Austin Community College. I enjoy creating
@@ -83,7 +83,7 @@ function Home() {
                 <img
                     src={profilePic}
                     alt="Profile"
-                    className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 object-cover rounded-full border-4 border-white shadow-lg mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+                    className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover rounded-lg border-4 border-white shadow-lg mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                 />
             </div>
             </div>

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
+import Education from './Sections/Education';
 import { useEffect, useState, useRef } from 'react';
 
 function Portfolio() {
@@ -56,8 +57,11 @@ function Portfolio() {
               {/* Your projects section */}
             </section>
 
-            <section id="education" className="mb-16 pl-4 border-l-4 border-green-500">
-              <h2 className="text-xl font-semibold mb-3">Education</h2>
+            <section id="education" className="mb-16">
+              <div className="pl-2 border-l-2 border-green-500 relative mb-3">
+                <h2 className="text-xl font-semibold">Education</h2>
+              </div>
+              <Education />
               {/* Your education section */}
             </section>
 
