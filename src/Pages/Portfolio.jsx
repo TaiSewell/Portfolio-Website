@@ -1,4 +1,11 @@
-// import { Link } from 'react-router-dom';
+/************************************************
+ * Developer: Tai Sewell
+ * File: Portfolio.jsx
+ * Description: This file holds the funtion Portfolio()
+   It is used to display the portfolio page on
+   my website. It uses smaller sections and
+   components inside of it.
+ ***********************************************/
 import Navbar from '../Components/Navbar';
 import Education from './Sections/Education';
 import Footer from '../Components/Footer';

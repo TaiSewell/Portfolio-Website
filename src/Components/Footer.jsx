@@ -1,3 +1,11 @@
+/************************************************
+ * Developer: Tai Sewell
+ * File: Footer.jsx
+ * Description: This file holds the function Footer()
+   this function is used to display the footer on the
+   Portfolio Page.
+ ***********************************************/
+
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 

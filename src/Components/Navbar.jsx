@@ -1,8 +1,16 @@
+/************************************************
+ * Developer: Tai Sewell
+ * File: Navbar.jsx
+ * Description: This file holds the funtion Navbar()
+   this function is used to display the navbar on
+   the portfolio page.
+ ***********************************************/
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md text-white flex items-center justify-between px-6 md:px-12 py-4 shadow-lg z-50">
         
