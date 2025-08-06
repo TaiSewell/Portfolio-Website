@@ -32,23 +32,16 @@ const Navbar = () => {
             </Link>
         </div>
 
-        {/* Right: socials */}
+        {/* Right: Resume */}
         <div className="flex items-center space-x-4">
             <a
-            href="https://github.com/TaiSewell"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-green-500 transition text-4xl"
+                href="/SWE WP Resume - 8.6.25.pdf"
+                download
+                className="relative text-white font-semibold md: text-xl transition hover:text-green-400 
+                        before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 
+                        before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full"
             >
-            <FaGithub />
-            </a>
-            <a
-            href="https://www.linkedin.com/in/tai-sewell-9bbb90271/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-green-500 transition text-4xl"
-            >
-            <FaLinkedin />
+            Resume
             </a>
         </div>
         </nav>

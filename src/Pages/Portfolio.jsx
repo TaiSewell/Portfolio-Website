@@ -8,6 +8,7 @@
  ***********************************************/
 import Navbar from '../Components/Navbar';
 import Education from './Sections/Education';
+import Contact from './Sections/ContactMe';
 import Footer from '../Components/Footer';
 import { useEffect, useState, useRef } from 'react';
 
@@ -80,6 +81,10 @@ function Portfolio() {
               </div>
               <Education />
               {/* Your education section */}
+            </section>
+
+            <section>
+              <Contact />
             </section>
           </main>
         </div>
