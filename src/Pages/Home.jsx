@@ -6,6 +6,7 @@
    when imported into App.jsx
  ***********************************************/
 import { useState, useEffect, useRef } from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import profilePic from '../assets/profile.jpg';
 
@@ -51,7 +52,7 @@ function Home() {
             <div
                 className="pointer-events-none absolute inset-0 z-0"
                 style={{
-                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.1), transparent 400px)`
+                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.2), transparent 400px)`
                 }}
         />
 
@@ -59,31 +60,51 @@ function Home() {
         <div className="text-center">
             <img src="/Initials Logo.png" alt="TS Logo" className="w-20 h-20 mx-auto" />
         </div>
-        <div className="relative z-10 h-full flex items-center justify-center px-8">
+        <div className="relative z-10 min-h-screen flex items-center justify-center px-8 pt-6 pb-24">
             <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Intro Text Section */}
             <div>
-                <h1 className="text-5xl font-bold text-green-400 mb-4">
+                <h1 className="text-6xl lg:text-7xl font-extrabold text-green-400 mb-6 leading-tight">
                     Hello, my name is Tai Sewell
                 </h1>
-                <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+                <p className="text-xl text-gray-300 mb-8 max-w-xl leading-relaxed">
                     I'm a passionate Software Development student at Austin Community College. I enjoy creating
                     applications of all kinds, from simple tools to full-stack applications. With a background in 
                     athletics as well, I bring adaptability, teamwork, and technical skill to every project I take on.
                 </p>
                 <Link to="/portfolio">
-                    <button className="bg-green-500 hover:bg-green-600 text-black px-6 py-2 rounded-lg font-semibold transition-all transform hover:scale-105 hover:shadow-lg duration-300">
+                    <button className="bg-green-500 hover:bg-green-600 text-black text-lg px-8 py-3 rounded-xl font-semibold transition-all transform hover:scale-105 hover:shadow-lg duration-300">
                         View My Work
                     </button>
                 </Link>
+                <div className="flex space-x-6 mt-6">
+                    {/* GitHub */}
+                    <a
+                        href="https://github.com/TaiSewell"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 hover:text-green-400 text-4xl transition-transform transform hover:scale-110"
+                    >
+                        <FaGithub />
+                    </a>
+                     {/* LinkedIn */}
+                    <a
+                        href="https://www.linkedin.com/in/tai-sewell-9bbb90271/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 hover:text-green-400 text-4xl transition-transform transform hover:scale-110"
+                    >
+                        <FaLinkedin />
+                    </a>
+                </div>
             </div>
-
+        
             {/* Image Section */}
             <div>
                 <img
                     src={profilePic}
                     alt="Profile"
-                    className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover rounded-lg border-4 border-white shadow-lg mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+                    className="w-80 h-80 sm:w-96 sm:h-96 md:w-[28rem] md:h-[28rem] object-cover rounded-2xl border-4 border-white shadow-lg mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                 />
             </div>
             </div>

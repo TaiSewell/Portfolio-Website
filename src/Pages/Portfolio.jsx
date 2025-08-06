@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
 import Education from './Sections/Education';
+import Footer from '../Components/Footer';
 import { useEffect, useState, useRef } from 'react';
 
 function Portfolio() {
@@ -52,9 +53,18 @@ function Portfolio() {
         <div className="flex">
           <Navbar />
           <main className="ml-48 px-8 py-20 w-full text-white scroll-pt-24">
-            <section id="projects" className="mb-16 pl-4 border-l-4 border-green-500">
-                <h2 className="text-xl font-semibold mb-3">Projects</h2>
+            <section id="projects" className="mb-16">
+              <div className="pl-2 border-l-2 border-green-500 relative mb-3">
+                <h2 className="text-xl font-semibold">Projects</h2>
+              </div>
               {/* Your projects section */}
+            </section>
+
+             <section id="experience" className="mb-16">
+              <div className="pl-2 border-l-2 border-green-500 relative mb-3">
+                <h2 className="text-xl font-semibold mb-3">Experience</h2>
+                </div>
+              {/* Your experience details */}
             </section>
 
             <section id="education" className="mb-16">
@@ -64,13 +74,9 @@ function Portfolio() {
               <Education />
               {/* Your education section */}
             </section>
-
-            <section id="experience" className="pl-4 border-l-4 border-green-500">
-              <h2 className="text-xl font-semibold mb-3">Experience</h2>
-              {/* Your experience details */}
-            </section>
           </main>
         </div>
+        <Footer />
       </div>
     );
 }
