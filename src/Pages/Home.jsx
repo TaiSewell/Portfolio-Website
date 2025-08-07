@@ -52,7 +52,7 @@ function Home() {
             <div
                 className="pointer-events-none absolute inset-0 z-0"
                 style={{
-                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.2), transparent 400px)`
+                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.1), transparent 400px)`
                 }}
         />
 

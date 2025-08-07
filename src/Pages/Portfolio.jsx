@@ -7,6 +7,7 @@
    components inside of it.
  ***********************************************/
 import Navbar from '../Components/Navbar';
+import Experience from './Sections/Experience';
 import Education from './Sections/Education';
 import Contact from './Sections/ContactMe';
 import Footer from '../Components/Footer';
@@ -45,10 +46,11 @@ function Portfolio() {
       }, [mouse]);
   
       return (
+        <div className="scroll-smooth">
         <div
             ref={containerRef}
             onMouseMove={handleMouseMove}
-            className="relative h-screen bg-black text-white overflow-hidden"
+            className="relative min-h-screen bg-black text-white"
             >
             {/* Smooth spotlight background */}
             <div
@@ -60,35 +62,39 @@ function Portfolio() {
 
         <div className="flex">
           <Navbar />
-          <main className="ml-48 px-8 py-20 w-full text-white scroll-pt-24">
-            <section id="projects" className="mb-16">
+          <main className="px-8 py-20 w-full max-w-3xl mx-auto text-white scroll-pt-24">
+
+            <section id="projects" className="mb-60 scroll-mt-24">
               <div className="pl-2 border-l-2 border-green-500 relative mb-3">
-                <h2 className="text-xl font-semibold">Projects</h2>
+                <h2 className="text-2xl font-semibold">Projects</h2>
               </div>
               {/* Your projects section */}
             </section>
 
-             <section id="experience" className="mb-16">
+            <section id="experience" className="mb-60 scroll-mt-24">
               <div className="pl-2 border-l-2 border-green-500 relative mb-3">
-                <h2 className="text-xl font-semibold mb-3">Experience</h2>
-                </div>
-              {/* Your experience details */}
+                <h2 className="text-2xl font-semibold mb-3">Experience</h2>
+              </div>
+              <Experience />
             </section>
 
-            <section id="education" className="mb-16">
+            <section id="education" className="mb-60 scroll-mt-24">
               <div className="pl-2 border-l-2 border-green-500 relative mb-3">
-                <h2 className="text-xl font-semibold">Education</h2>
+                <h2 className="text-2xl font-semibold">Education</h2>
               </div>
               <Education />
-              {/* Your education section */}
             </section>
 
             <section>
               <Contact />
             </section>
+
           </main>
         </div>
-        <Footer />
+        <section>
+          <Footer />
+        </section>
+      </div>
       </div>
     );
 }

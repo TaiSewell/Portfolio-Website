@@ -19,6 +19,7 @@ const Navbar = () => {
             <a href="#projects" className="relative pb-1 hover:text-green-500 transition before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-green-500 before:transition-all before:duration-300 hover:before:w-full text-base sm:text-lg md:text-xl">Projects</a>
             <a href="#education" className="relative pb-1 hover:text-green-500 transition before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-green-500 before:transition-all before:duration-300 hover:before:w-full text-base sm:text-lg md:text-xl">Education</a>
             <a href="#experience" className="relative pb-1 hover:text-green-500 transition before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-green-500 before:transition-all before:duration-300 hover:before:w-full text-base sm:text-lg md:text-xl">Experience</a>
+            <a href="#contact" className="relative pb-1 hover:text-green-500 transition before:absolute before:left-0 before:bottom-0 before:w-0 before:h-[2px] before:bg-green-500 before:transition-all before:duration-300 hover:before:w-full text-base sm:text-lg md:text-xl">Contact</a>
         </div>
 
         {/* Center: Logo */}

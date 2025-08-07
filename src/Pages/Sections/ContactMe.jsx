@@ -1,23 +1,24 @@
+/************************************************
+ * Developer: Tai Sewell
+ * File: ContactMe.jsx
+ * Description: This file holds the funtion Contact()
+   that displays the contact section inside the portfolio
+   page.
+ ***********************************************/
+
 const Contact = () => {
   return (
-    <section id="contact" className="bg-black text-white py-24 px-6">
-      <div className="max-w-2xl mx-auto text-center">
-        {/* Heading */}
-        <h2 className="text-4xl font-bold text-green-400 mb-4">
-          Get In Touch
-        </h2>
-
-        {/* Brief Description */}
+    <section id="contact" className="w-full py-24 px-4">
+      <div className="max-w-2xl text-center">
+        <h2 className="text-4xl font-bold text-green-400 mb-4">Get In Touch</h2>
         <p className="text-lg text-gray-300 mb-8">
-          Have a question or want to work together? I'd love to hear from you.
+          Feel free to reach out with any questions or opportunities to connect.
         </p>
-
-        {/* Contact Button */}
         <a
           href="mailto:tai.sewell2026@gmail.com"
-          className="inline-block bg-green-500 hover:bg-green-600 text-black text-lg px-8 py-3 rounded-xl font-semibold transition-all transform hover:scale-105 hover:shadow-lg duration-300"
+          className="inline-flex items-center justify-center bg-green-500 text-black px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-green-600 hover:scale-105 hover:shadow-md"
         >
-          Contact
+          Contact Me
         </a>
       </div>
     </section>
