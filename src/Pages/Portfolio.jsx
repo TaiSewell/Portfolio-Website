@@ -7,6 +7,7 @@
    components inside of it.
  ***********************************************/
 import Navbar from '../Components/Navbar';
+import Projects from './Sections/Projects';
 import Experience from './Sections/Experience';
 import Education from './Sections/Education';
 import Contact from './Sections/ContactMe';
@@ -69,6 +70,7 @@ function Portfolio() {
                 <h2 className="text-2xl font-semibold">Projects</h2>
               </div>
               {/* Your projects section */}
+              <Projects />
             </section>
 
             <section id="experience" className="mb-60 scroll-mt-24">
