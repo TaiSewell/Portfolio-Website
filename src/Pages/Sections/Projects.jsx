@@ -38,7 +38,7 @@ function Projects() {
 
       {/* Steam Game Price/Revenue Prediction Models */}
       <a
-        href="https://github.com/TaiSewell/Portfolio-Website/blob/main/Sewell_Capstone_Project.ipynb" // <-- placeholder, update to your repo
+        href="https://github.com/TaiSewell/Portfolio-Website/blob/main/public/Sewell_Capstone_Project.ipynb" // <-- placeholder, update to your repo
         target="_blank"
         rel="noopener noreferrer"
         className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-md hover:shadow-green-500/30 transform hover:scale-[1.01] transition"
@@ -89,7 +89,7 @@ function Projects() {
         {/* Right: Content */}
         <div className="p-6 text-white flex flex-col justify-between md:w-[70%]">
           <h3 className="text-xl font-bold text-green-400 mb-2">
-            taisewell.com
+            taisewell.com (v1)
           </h3>
           <p className="text-gray-300 mb-4">
             Clean, black‑and‑white layout with wild green accents showcasing projects, education, and experience.
