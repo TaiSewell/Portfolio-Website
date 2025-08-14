@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/logo.png" alt="Tai Sewell Logo" width="200">
+  <img src="public/images/Initials logo.png" alt="Tai Sewell Logo" width="200">
 </p>
 
 # taisewell.com – v1
