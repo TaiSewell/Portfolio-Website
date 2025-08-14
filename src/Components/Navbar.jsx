@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Right: Resume */}
         <div className="flex items-center space-x-4">
             <a
-                href="/SWE WP Resume - 8.6.25.pdf"
+                href="/SWE WP Resume - 8.14.25.pdf"
                 download
                 className="relative text-white font-semibold md: text-xl transition hover:text-green-400 
                         before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 
