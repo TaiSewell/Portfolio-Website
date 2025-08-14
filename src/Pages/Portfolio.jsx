@@ -10,7 +10,6 @@ import Navbar from '../Components/Navbar';
 import Projects from './Sections/Projects';
 import Experience from './Sections/Experience';
 import Education from './Sections/Education';
-import Contact from './Sections/ContactMe';
 import Footer from '../Components/Footer';
 import { useEffect, useState, useRef } from 'react';
 
@@ -86,11 +85,6 @@ function Portfolio() {
               </div>
               <Education />
             </section>
-
-            <section>
-              <Contact />
-            </section>
-
           </main>
         </div>
         <section>

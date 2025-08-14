@@ -24,7 +24,6 @@ const Footer = () => {
             <a href="#projects" className="hover:text-green-400 transition">Projects</a>
             <a href="#education" className="hover:text-green-400 transition">Education</a>
             <a href="#experience" className="hover:text-green-400 transition">Experience</a>
-            <a href="#contact" className="hover:text-green-400 transition">Contact</a>
             </div>
 
             {/* Right: Social Icons */}

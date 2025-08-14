@@ -9,8 +9,25 @@ import { useState, useEffect, useRef } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import profilePic from '../assets/profile.jpg';
+import IntroLoader from "../Components/IntroLoader";
 
+/************************************************
+ * Function: Home()
+ * Description: This function is used to load the home
+   page for my website.
+ ***********************************************/
 function Home() {
+    {/* Loading Screen */}
+    const [showLoader] = useState(() => {
+        return !sessionStorage.getItem("visited");
+    });
+   useEffect(() => {
+    if (showLoader) {
+      sessionStorage.setItem("visited", "true");
+    }
+  }, [showLoader]);
+  
+    {/* Spotlight */}
     const containerRef = useRef(null);
     const [mouse, setMouse] = useState({x:0, y:0});
     const[smoothedMouse, setSmoothedMouse] = useState({x:0, y:0});
@@ -43,6 +60,9 @@ function Home() {
     }, [mouse]);
 
     return (
+        <div className="relative">
+            {showLoader && <IntroLoader initials="TS" minDuration={1100} />}
+        
         <div
             ref={containerRef}
             onMouseMove={handleMouseMove}
@@ -104,10 +124,14 @@ function Home() {
                 <img
                     src={profilePic}
                     alt="Profile"
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
                     className="w-80 h-80 sm:w-96 sm:h-96 md:w-[28rem] md:h-[28rem] object-cover rounded-2xl border-4 border-white shadow-lg mx-auto transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                 />
             </div>
             </div>
+        </div>
         </div>
         </div>
     );
