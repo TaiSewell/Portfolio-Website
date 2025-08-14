@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/Initials logo.png" alt="TS Logo" width="200">
+  <img src="public/Initials Logo.png" alt="TS Logo" width="200">
 </p>
 
 <h1 align="center"> 
@@ -9,6 +9,7 @@
     Personal portfolio website showcasing my projects, skills, and experience.  
     Built with a modern frontend stack and deployed globally with Vercel.
 </p>
+
 ---
 
 ## 🚀 Tech Stack
