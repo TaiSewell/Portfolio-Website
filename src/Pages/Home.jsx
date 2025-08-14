@@ -8,7 +8,7 @@
 import { useState, useEffect, useRef } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/Profile.jpg';
 import IntroLoader from "../Components/IntroLoader";
 
 /************************************************
