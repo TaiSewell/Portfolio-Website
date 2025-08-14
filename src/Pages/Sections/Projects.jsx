@@ -38,7 +38,7 @@ function Projects() {
 
       {/* Steam Game Price/Revenue Prediction Models */}
       <a
-        href="https://github.com/TaiSewell/Portfolio-Website/blob/main/Sewell_Capstone_Project.ipynb" // <-- placeholder, update to your repo
+        href="https://www.taisewell.com/" // <-- placeholder, update to your repo
         target="_blank"
         rel="noopener noreferrer"
         className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-md hover:shadow-green-500/30 transform hover:scale-[1.01] transition"
