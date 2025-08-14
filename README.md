@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="public/images/Initials logo.png" alt="Tai Sewell Logo" width="200">
+  <img src="public/Initials logo.png" alt="TS Logo" width="200">
 </p>
 
-# taisewell.com – v1
-
-Personal portfolio website showcasing my projects, skills, and experience.  
-Built with a modern frontend stack and deployed globally with Vercel.
-
+<h1 align="center"> 
+    taisewell.com – v1
+</h1>
+<p align="center">
+    Personal portfolio website showcasing my projects, skills, and experience.  
+    Built with a modern frontend stack and deployed globally with Vercel.
+</p>
 ---
 
 ## 🚀 Tech Stack
@@ -23,7 +25,7 @@ Built with a modern frontend stack and deployed globally with Vercel.
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](public/images/portfolio-preview.png)
+![Portfolio Screenshot](public/Personal Website - Home Screen.png)
 
 ---
 
