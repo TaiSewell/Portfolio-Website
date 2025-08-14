@@ -28,6 +28,3 @@
 ## 📸 Preview
 ![Portfolio Screenshot](public/Personal Website - Home Screen.png)
 
----
-
-## 🛠 Getting Started
