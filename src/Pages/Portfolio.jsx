@@ -5,7 +5,7 @@
    It is used to display the portfolio page on
    my website. It uses smaller sections and
    components inside of it.
- ***********************************************/
+************************************************/
 import Navbar from '../Components/Navbar';
 import Projects from './Sections/Projects';
 import Experience from './Sections/Experience';
@@ -13,6 +13,13 @@ import Education from './Sections/Education';
 import Footer from '../Components/Footer';
 import { useEffect, useState, useRef } from 'react';
 
+/*************************************************** 
+ * Function: Portfolio()
+ * Description: This function is the focal point for
+   portfolio page that holds all of my information.
+ * Return: returns the portfolio page with all of my
+   project, education and experience sections.
+***************************************************/
 function Portfolio() {
   const containerRef = useRef(null);
       const [mouse, setMouse] = useState({x:0, y:0});
@@ -56,7 +63,7 @@ function Portfolio() {
             <div
                 className="pointer-events-none absolute inset-0 z-0"
                 style={{
-                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.1), transparent 400px)`
+                background: `radial-gradient(circle at ${smoothedMouse.x}px ${smoothedMouse.y}px, rgba(255, 255, 255, 0.2), transparent 400px)`
               }}
           />
 

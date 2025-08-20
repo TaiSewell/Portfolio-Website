@@ -1,4 +1,9 @@
-
+/************************************************
+ * Developer: Tai Sewell
+ * File: Education.jsx
+ * Description: This file holds the function that 
+   deals with displaying my education information.
+************************************************/
 function Education() {
     return (
         <section id="education" className="mb-20 px-4">

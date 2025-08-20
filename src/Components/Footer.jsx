@@ -4,11 +4,17 @@
  * Description: This file holds the function Footer()
    this function is used to display the footer on the
    Portfolio Page.
- ***********************************************/
+************************************************/
 
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+/*************************************************** 
+ * Function: Footer()
+ * Description: This function is used to generate the footer
+   at the bottom of my site on my portfolio page.
+ * Return: returns the footer for the portfolio page.
+***************************************************/
 const Footer = () => {
     return (
         <footer className="bg-black text-gray-400 py-10 px-8 mt-20">

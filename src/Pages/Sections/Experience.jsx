@@ -5,18 +5,45 @@
    this function is reponsible for forming the experience
    section used inside of the Portfolio page.
  ***********************************************/
-
 function Experience() {
     return (
         <section id="experience" className="mb-16">
             {/* Experience Card */}
             <div className="bg-zinc-900 p-6 rounded-xl shadow-md transition transform hover:scale-[1.02] hover:shadow-green-500/30 mb-8">
-                <h3 className="text-lg font-bold text-green-400">Sales Associate / IT Specialist</h3>
-                <p className="text-sm text-gray-400">Urban Euphoria CBD • 2022 – Present</p>
+                <h3 className="text-lg font-bold text-green-400">Sales & IT Manager</h3>
+                <p className="text-sm text-gray-400">Urban Euphoria CBD • August 2025 – Present</p>
                 <p className="mt-2 text-base text-gray-300 leading-relaxed">
-                    At Urban Euphoria CBD, I support both customer engagement and technical operations. I maintain and improve the company website to boost SEO and product visibility, 
-                    streamline the online shopping experience, and assist with in-store POS systems. This hybrid role enhances my problem-solving and communication skills 
-                    across IT and customer service.
+                <ul className="list-disc list-inside space-y-2">
+                    <li>Manage and train sales associates, driving team performance and ensuring excellent customer service.</li>
+                    <li>Oversee daily sales operations, address customer needs, and implement strategies to boost revenue and customer retention.</li>
+                    <li>Handle IT responsibilities, including maintaining and updating the company website, troubleshooting technical issues, and ensuring smooth digital operations.</li>
+                    <li>Collaborate with leadership to align sales initiatives and technology solutions with overall business goals.</li> 
+                </ul>
+                </p>
+                <div className="mt-4">
+                    <ul className="flex flex-wrap gap-2">
+                        {['Data Analysis', 'Website Design', 'Collaboration', 'Communication'].map((skill) => (
+                        <li
+                            key={skill}
+                            className="px-3 py-1  bg-green-500/10 text-green-400 text-sm rounded-full shadow-md"
+                        >
+                            {skill}
+                        </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+
+            <div className="bg-zinc-900 p-6 rounded-xl shadow-md transition transform hover:scale-[1.02] hover:shadow-green-500/30 mb-8">
+                <h3 className="text-lg font-bold text-green-400">Sales Associate / IT Specialist</h3>
+                <p className="text-sm text-gray-400">Urban Euphoria CBD • August 2022 – August 2025</p>
+                <p className="mt-2 text-base text-gray-300 leading-relaxed">
+                    <ul className="list-disc list-inside space-y-2">
+                        <li>Supported both customer engagement and technical operations to enhance sales and service.</li>
+                        <li>Maintained and improved the company website to boost SEO and product visibility.</li>
+                        <li>Streamlined the online shopping experience and assisted with in-store POS systems.</li>
+                        <li>Developed problem-solving and communication skills across IT and customer service.</li> 
+                    </ul>
                 </p>
                 <div className="mt-4">
                     <ul className="flex flex-wrap gap-2">

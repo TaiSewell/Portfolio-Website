@@ -1,5 +1,17 @@
+/************************************************
+ * Developer: Tai Sewell
+ * File: IntroLoader.jsx
+ * Description: This file is what loads the Intro
+   for my loading screen.
+************************************************/
 import { useEffect, useState } from "react";
 
+/*************************************************** 
+ * Function: Introloader()
+ * Description: This function allows for my intro loading
+   screen to be properly loaded before my home screen.
+ * Return: returns the intro loading screen.
+***************************************************/
 export default function IntroLoader({ initials = "TS", minDuration = 900 }) {
   const [done, setDone] = useState(false);
 

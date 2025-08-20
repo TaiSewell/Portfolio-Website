@@ -3,12 +3,18 @@
 </p>
 
 <h1 align="center"> 
-    taisewell.com – v1
+    taisewell.com
 </h1>
 <p align="center">
     Personal portfolio website showcasing my projects, skills, and experience.  
     Built with a modern frontend stack and deployed globally with Vercel.
 </p>
+
+---
+
+## Versions
+- **v1** - Initial Launch | 8/15/25
+- **v2** - Added new role to my experience section and made site mobile friendly | 8/20/25 
 
 ---
 

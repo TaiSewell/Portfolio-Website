@@ -1,3 +1,10 @@
+/************************************************
+ * Developer: Tai Sewell
+ * File: Projects.jsx
+ * Description: This file holds the Projects()
+   function that allows for my projects to be displayed
+   in my project cards.
+************************************************/
 function Projects() {
   return (
     <section id="projects" className="space-y-6">
@@ -6,7 +13,7 @@ function Projects() {
         href="https://github.com/TaiSewell/ToDoList_Web_App" // <-- update if needed
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-md hover:shadow-green-500/30 transform hover:scale-[1.01] transition"
+        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-green-500/30 transform hover:scale-[1.03] transition"
       >
         {/* Left: Image */}
         <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-white p-2">
@@ -41,7 +48,7 @@ function Projects() {
         href="https://github.com/TaiSewell/Portfolio-Website/blob/main/public/Sewell_Capstone_Project.ipynb" // <-- placeholder, update to your repo
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-md hover:shadow-green-500/30 transform hover:scale-[1.01] transition"
+        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-green-500/30 transform hover:scale-[1.03] transition"
       >
         {/* Left: Image */}
         <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-zinc-700">
@@ -75,7 +82,7 @@ function Projects() {
         href="https://www.taisewell.com/" // <-- placeholder, update to your repo
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-md hover:shadow-green-500/30 transform hover:scale-[1.01] transition"
+        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-green-500/30 transform hover:scale-[1.03] transition"
       >
         {/* Left: Image */}
         <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-black p-2">
