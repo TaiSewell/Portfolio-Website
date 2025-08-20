@@ -96,7 +96,7 @@ function Projects() {
         {/* Right: Content */}
         <div className="p-6 text-white flex flex-col justify-between md:w-[70%]">
           <h3 className="text-xl font-bold text-green-400 mb-2">
-            taisewell.com (v1)
+            taisewell.com (v2)
           </h3>
           <p className="text-gray-300 mb-4">
             Clean, black‑and‑white layout with wild green accents showcasing projects, education, and experience.

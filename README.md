@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"> 
-    taisewell.com
+    taisewell.com - v2
 </h1>
 <p align="center">
     Personal portfolio website showcasing my projects, skills, and experience.  
