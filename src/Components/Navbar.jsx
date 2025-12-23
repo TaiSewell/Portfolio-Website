@@ -101,7 +101,7 @@ const Navbar = () => {
                 Experience
                 </a>
                 <a
-                href="/SWE WP Resume - 8.14.25.pdf"
+                href="/SWE Intern Resume - 12.18.25.pdf"
                 download
                 onClick={closeMenu}
                 className="mt-2 py-3 text-base hover:text-green-400"
