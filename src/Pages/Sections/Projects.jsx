@@ -18,7 +18,7 @@ function Projects() {
         {/* Left: Image */}
         <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-white p-2">
             <img
-                src="./GridIronGPT Logo"
+                src="./GridIronGPT Logo.png"
                 alt="Portfolio Website Screenshot"
                 className="w-full h-full object-contain"
             />
