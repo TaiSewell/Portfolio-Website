@@ -16,7 +16,7 @@ function Projects() {
         className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-green-500/30 transform hover:scale-[1.03] transition"
       >
         {/* Left: Image */}
-        <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-cyan-950 p-2">
+        <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-blue-950 p-2">
             <img
                 src="./GridIronGPT Logo.png"
                 alt="Portfolio Website Screenshot"
