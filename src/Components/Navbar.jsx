@@ -62,7 +62,7 @@ const Navbar = () => {
             {/* Right: Resume (desktop only) */}
             <div className="hidden md:flex items-center space-x-4">
                 <a
-                href="/SWE WP Resume - 8.14.25.pdf"
+                href="/SWE%20Intern%20Resume%20-%2012.18.25.pdf"
                 download
                 className="relative text-white font-semibold text-xl transition hover:text-green-400 
                             before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 
@@ -101,7 +101,7 @@ const Navbar = () => {
                 Experience
                 </a>
                 <a
-                href="/SWE Intern Resume - 12.18.25.pdf"
+                href="/SWE%20Intern%20Resume%20-%2012.18.25.pdf"
                 download
                 onClick={closeMenu}
                 className="mt-2 py-3 text-base hover:text-green-400"
