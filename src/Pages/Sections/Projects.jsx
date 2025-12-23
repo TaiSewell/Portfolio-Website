@@ -8,6 +8,41 @@
 function Projects() {
   return (
     <section id="projects" className="space-y-6">
+      {/* GridIronGPT */}
+      <a
+        href="https://github.com/TaiSewell/GridIronGPT"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex flex-col md:flex-row bg-zinc-900 rounded-xl overflow-hidden shadow-lg hover:shadow-green-500/30 transform hover:scale-[1.03] transition"
+      >
+        {/* Left: Image */}
+        <div className="md:w-[30%] w-full h-36 md:h-auto flex-shrink-0 bg-white p-2">
+            <img
+                src="./GridIronGPT Logo"
+                alt="Portfolio Website Screenshot"
+                className="w-full h-full object-contain"
+            />
+        </div>
+
+        {/* Right: Content */}
+        <div className="p-6 text-white flex flex-col justify-between md:w-[70%]">
+          <h3 className="text-xl font-bold text-green-400 mb-2">
+            GridIronGPT - Fantasy Football Assistant
+          </h3>
+          <p className="text-gray-300 mb-4">
+            full-stack AI fantasy football platform that ingests live player data, applies predictive analysis, and presents matchup insights through a fast, intuitive dashboard.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">React</span>
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">FastAPI</span>
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">Python</span>
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">SQLite</span>
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">Docker</span>
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">CI/CD</span>
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-400 rounded-full">Github</span>
+          </div>
+        </div>
+      </a>
       {/* TaskTrackr – To-Do List Web App */}
       <a
         href="https://github.com/TaiSewell/ToDoList_Web_App" // <-- update if needed
