@@ -62,8 +62,8 @@ const Navbar = () => {
             {/* Right: Resume (desktop only) */}
             <div className="hidden md:flex items-center space-x-4">
                 <a
-                href="/SWE%20Intern%20Resume%20-%2012.18.25.pdf"
-                download
+                href="https://drive.google.com/uc?export=download&id=1iuDXkJUmpLZC65cuJGTyt60P0n3YTsNT"
+                download="Tai_Sewell_Resume.pdf"
                 className="relative text-white font-semibold text-xl transition hover:text-green-400 
                             before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 
                             before:bg-green-400 before:transition-all before:duration-300 hover:before:w-full"
