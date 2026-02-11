@@ -10,7 +10,7 @@ function Experience() {
         <section id="experience" className="mb-16">
             {/* Experience Card */}
             <div className="bg-zinc-900 p-6 rounded-xl shadow-md transition transform hover:scale-[1.02] hover:shadow-green-500/30 mb-8">
-                <h3 className="text-lg font-bold text-green-400">Sales & IT Manager</h3>
+                <h3 className="text-lg font-bold text-green-400">Sales & Technology Manager</h3>
                 <p className="text-sm text-gray-400">Urban Euphoria CBD • August 2025 – Present</p>
                 <p className="mt-2 text-base text-gray-300 leading-relaxed">
                 <ul className="list-disc list-inside space-y-2">
